@@ -43,6 +43,18 @@
         .feature a:hover {
             text-decoration: underline;
         }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
         footer {
             text-align: center;
             padding: 10px;
@@ -91,6 +103,20 @@
             <h2>Mess Coupons Booking</h2>
             <p>Book your mess coupons online with ease and enjoy your meals without hassle.</p>
             <a href="mess-coupons.html">Book Mess Coupons</a>
+        </div>
+
+        <!-- App Screenshots -->
+        <div class="feature">
+            <h2>App Screenshots</h2>
+            <p>Take a look at the app's interface and features:</p>
+            <div class="gallery">
+                <img src="screenshots/1.jpg" alt="Screenshot 1">
+                <img src="screenshots/2.jpg" alt="Screenshot 2">
+                <img src="screenshots/3.jpg" alt="Screenshot 3">
+                <img src="screenshots/4.jpg" alt="Screenshot 4">
+                <img src="screenshots/5.jpg" alt="Screenshot 5">
+                <img src="screenshots/6.jpg" alt="Screenshot 6">
+            </div>
         </div>
 
         <!-- Privacy Policy -->
